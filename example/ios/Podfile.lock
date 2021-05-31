@@ -1,0 +1,47 @@
+PODS:
+  - EVReflection (5.10.0):
+    - EVReflection/Core (= 5.10.0)
+  - EVReflection/Core (5.10.0)
+  - Flutter (1.0.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - nim (0.0.1):
+    - EVReflection (= 5.10)
+    - Flutter
+    - NIMSDK_LITE (= 8.3)
+  - NIMSDK_LITE (8.3.0)
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - nim (from `.symlinks/plugins/nim/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - EVReflection
+    - NIMSDK_LITE
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  nim:
+    :path: ".symlinks/plugins/nim/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  EVReflection: 1abc1a81927ab0d30170238cf9b79bff489e9728
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+  nim: 68b134841336882eda257fc0e742c73c8e837410
+  NIMSDK_LITE: 7118dbc6301fbfb4c4b38d2a58c89fe80adac64e
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+
+PODFILE CHECKSUM: 02d221f1e7d9462bff20092f7b45d080159f4852
+
+COCOAPODS: 1.10.1
